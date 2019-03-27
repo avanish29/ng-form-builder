@@ -1,0 +1,39 @@
+<div class="container">
+        <div class="d-flex justify-content-center h-100">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Sign In</h3>
+                </div>
+            <div class="card-body">    
+                <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                    <div class="form-group">
+                        <label for="loginFormUserName">User name</label>
+                        <input type="text" formControlName="username" id="loginFormUserName" class="form-control" [ngClass]="{ 'is-invalid': isFieldInvalid('username') }" />
+                        <div *ngIf="isFieldInvalid('username')" class="invalid-feedback">
+                            <div *ngIf="isFieldInvalid('username')">Username is required</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginFormPassword">Password</label>
+                        <input type="password" id="loginFormPassword" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': isFieldInvalid('password') }" />
+                        <div *ngIf="isFieldInvalid('password')" class="invalid-feedback">
+                            <div *ngIf="isFieldInvalid('password')">Password is required</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button [disabled]="loading" class="btn btn-primary">Login</button>
+                    </div>
+                    <div *ngIf="error" class="alert alert-danger">{{error}}</div>
+                </form>
+            </div>
+			<div class="card-footer">
+				<div class="d-flex justify-content-center links">
+					Don't have an account?<a href="#"> Sign Up</a>
+				</div>
+				<div class="d-flex justify-content-center">
+					<a href="#">Forgot your password?</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

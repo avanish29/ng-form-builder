@@ -1,0 +1,11 @@
+.container{
+    height: 100%;
+    align-content: center;
+}
+
+.card{
+    height: 450px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 450px;
+}

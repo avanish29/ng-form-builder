@@ -1,0 +1,353 @@
+[
+    {
+        "Name": "Single Text",
+        "Type": "text",
+        "Active": false,
+        "Settings": [
+            {
+                "Name": "Field Label",
+                "Value": "Single Text",
+                "Type": "text",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Short Label",
+                "Value": "Single Text",
+                "Type": "text",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Internal Name",
+                "Value": "xSingle_Text",
+                "Type": "text",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Field Type",
+                "Value": "Single Text",
+                "Type": "string",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Single Line Text Options",
+                "Value": "",
+                "Type": "label",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Max Input Length",
+                "Value": "50",
+                "Type": "text",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Url Template",
+                "Value": "",
+                "Type": "text",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Column Span",
+                "Value": "1",
+                "Type": "dropdown",
+                "PossibleValue": [
+                    "1",
+                    "2"
+                ],
+                "Options": []
+            },
+            {
+                "Name": "General Options",
+                "Value": "",
+                "Type": "checkBoxZone",
+                "PossibleValue": [],
+                "Options": [
+                    {
+                        "Name": "Required",
+                        "Value": false
+                    },
+                    {
+                        "Name": "Show on list",
+                        "Value": false
+                    },
+                    {
+                        "Name": "Unique",
+                        "Value": false
+                    },
+                    {
+                        "Name": "Index",
+                        "Value": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Date",
+        "Type": "date",
+        "Active": false,
+        "Settings": [
+            {
+                "Name": "Field Label",
+                "Value": "Field Label",
+                "Type": "text",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Short Label",
+                "Value": "Short Label",
+                "Type": "text",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Internal Name",
+                "Value": "Internal Name",
+                "Type": "text",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Field Type",
+                "Value": "Date",
+                "Type": "string",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Display Type",
+                "Value": "",
+                "Type": "radio",
+                "PossibleValue": [
+                    {
+                        "Text": "DateTimeInstance",
+                        "Checked": true
+                    },
+                    {
+                        "Text": "DateTimeLocal",
+                        "Checked": false
+                    },
+                    {
+                        "Text": "DateLocal",
+                        "Checked": false
+                    },
+                    {
+                        "Text": "Time",
+                        "Checked": false
+                    }
+                ],
+                "Options": []
+            },
+            {
+                "Name": "Column Span",
+                "Value": "1",
+                "Type": "dropdown",
+                "PossibleValue": [
+                    "1",
+                    "2"
+                ],
+                "Options": []
+            },
+            {
+                "Name": "General Options",
+                "Value": "",
+                "Type": "checkBoxZone",
+                "PossibleValue": [],
+                "Options": [
+                    {
+                        "Name": "Required",
+                        "Value": false
+                    },
+                    {
+                        "Name": "Show on list",
+                        "Value": false
+                    },
+                    {
+                        "Name": "Unique",
+                        "Value": false
+                    },
+                    {
+                        "Name": "Index",
+                        "Value": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Singe Selection",
+        "Type": "dropdown",
+        "Active": false,
+        "Settings": [
+            {
+                "Name": "Field Label",
+                "Value": "Field Label",
+                "Type": "text",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Short Label",
+                "Value": "",
+                "Type": "text",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Internal Name",
+                "Value": "Short Label",
+                "Type": "text",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Field Type",
+                "Value": "Single Selection",
+                "Type": "string",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Display Type",
+                "Value": "",
+                "Type": "radio",
+                "PossibleValue": [
+                    {
+                        "Text": "Dropdown",
+                        "Checked": true
+                    },
+                    {
+                        "Text": "Radio List",
+                        "Checked": false
+                    }
+                ],
+                "Options": []
+            },
+            {
+                "Name": "Choice",
+                "Value": "",
+                "Type": "dropdown_increment",
+                "PossibleValue": [
+                    {
+                        "Text": "Choice 1",
+                    },
+                    {
+                        "Text": "Choice 2"
+                    }
+                ],
+                "Options": []
+            },
+            {
+                "Name": "Column Span",
+                "Value": "1",
+                "Type": "dropdown",
+                "PossibleValue": [
+                    "1",
+                    "2"
+                ],
+                "Options": []
+            },
+            {
+                "Name": "General Options",
+                "Type": "checkBoxZone",
+                "Value": "",
+                "PossibleValue": [],
+                "Options": [
+                    {
+                        "Name": "Required",
+                        "Value": false
+                    },
+                    {
+                        "Name": "Show on list",
+                        "Value": false
+                    },
+                    {
+                        "Name": "Unique",
+                        "Value": false
+                    },
+                    {
+                        "Name": "Index",
+                        "Value": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Name": "Pagaraph Text",
+        "Type": "textarea",
+        "Active": false,
+        "Settings": [
+            {
+                "Name": "Field Label",
+                "Value": "",
+                "Type": "text",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Short Label",
+                "Value": "",
+                "Type": "text",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Internal Name",
+                "Value": "",
+                "Type": "text",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Field Type",
+                "Value": "Paragraph Text",
+                "Type": "string",
+                "PossibleValue": [],
+                "Options": []
+            },
+            {
+                "Name": "Column Span",
+                "Value": "1",
+                "Type": "dropdown",
+                "PossibleValue": [
+                    "1",
+                    "2"
+                ],
+                "Options": []
+            },
+            {
+                "Name": "General Options",
+                "Value": "",
+                "Type": "checkBoxZone",
+                "PossibleValue": [],
+                "Options": [
+                    {
+                        "Name": "Required",
+                        "Value": false
+                    },
+                    {
+                        "Name": "Enable Rich Text",
+                        "Value": false
+                    },
+                    {
+                        "Name": "Active",
+                        "Value": true
+                    },
+                    {
+                        "Name": "Hidden",
+                        "Value": false
+                    }
+                ]
+            }
+        ]
+    }
+]

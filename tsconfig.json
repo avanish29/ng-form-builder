@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "lib": [
+          "es2015",
+          "dom"
+      ],
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noImplicitAny": true,
+      "sourceMap": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "target": "es5",
+      "baseUrl": "src",
+      "paths": {
+          "@/*": [
+              "app/*"
+          ]
+      }
+  }
+}
