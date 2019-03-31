@@ -3,7 +3,14 @@
   "compilerOptions": {
     "resolveJsonModule": true,
     "outDir": "../out-tsc/app",
-    "types": []
+    "baseUrl": "./",
+    "module": "es2015",
+    "types": [],
+    "paths": {
+      "@angular/*": [
+        "../node_modules/@angular/*"
+      ]
+    }
   },
   "exclude": [
     "test.ts",
